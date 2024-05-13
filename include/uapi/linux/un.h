@@ -4,7 +4,7 @@
 
 #include <linux/socket.h>
 
-#define UNIX_PATH_MAX	108
+#define UNIX_PATH_MAX	256
 
 struct sockaddr_un {
 	__kernel_sa_family_t sun_family; /* AF_UNIX */
